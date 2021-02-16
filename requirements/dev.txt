@@ -16,7 +16,7 @@ appdirs==1.4.4
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-astroid==2.4.2
+astroid==2.5
     # via
     #   -r requirements/quality.txt
     #   pylint
@@ -38,7 +38,7 @@ certifi==2020.12.5
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
     #   requests
-cffi==1.14.4
+cffi==1.14.5
     # via
     #   -r requirements/quality.txt
     #   cryptography
@@ -89,7 +89,7 @@ coverage==5.4
     #   -r requirements/quality.txt
     #   codecov
     #   pytest-cov
-cryptography==3.4.2
+cryptography==3.4.5
     # via
     #   -r requirements/quality.txt
     #   django-fernet-fields
@@ -145,6 +145,7 @@ edx-lint==4.0.1
     # via -r requirements/quality.txt
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #edx-toggles==1.2.2
 =======
 edx-toggles==2.0.0
@@ -152,12 +153,15 @@ edx-toggles==2.0.0
 =======
 edx-toggles==3.1.0
 >>>>>>> d9988af... Updating Python Requirements
+=======
+edx-toggles==4.0.0
+>>>>>>> 2e31ef8... Updating Python Requirements (#51)
     # via -r requirements/quality.txt
 event-tracking==1.0.4
     # via -r requirements/quality.txt
 factory-boy==3.2.0
     # via -r requirements/quality.txt
-faker==6.0.0
+faker==6.1.1
     # via
     #   -r requirements/quality.txt
     #   factory-boy
@@ -197,7 +201,7 @@ kombu==5.0.2
     # via
     #   -r requirements/quality.txt
     #   celery
-lazy-object-proxy==1.4.3
+lazy-object-proxy==1.5.2
     # via
     #   -r requirements/quality.txt
     #   astroid
@@ -240,7 +244,7 @@ pluggy==0.13.1
     #   tox
 polib==1.1.0
     # via edx-i18n-tools
-prompt-toolkit==3.0.14
+prompt-toolkit==3.0.16
     # via
     #   -r requirements/quality.txt
     #   click-repl
@@ -262,7 +266,7 @@ pycparser==2.20
     #   cffi
 pydocstyle==5.1.1
     # via -r requirements/quality.txt
-pygments==2.7.4
+pygments==2.8.0
     # via diff-cover
 pylint-celery==0.3
     # via
@@ -331,7 +335,6 @@ six==1.15.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/quality.txt
-    #   astroid
     #   click-repl
     #   edx-i18n-tools
     #   edx-lint

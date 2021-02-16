@@ -12,7 +12,7 @@ aniso8601==8.1.1
     # via
     #   -r requirements/test.txt
     #   tincan
-astroid==2.4.2
+astroid==2.5
     # via
     #   pylint
     #   pylint-celery
@@ -32,7 +32,7 @@ certifi==2020.12.5
     # via
     #   -r requirements/test.txt
     #   requests
-cffi==1.14.4
+cffi==1.14.5
     # via
     #   -r requirements/test.txt
     #   cryptography
@@ -73,7 +73,7 @@ coverage==5.4
     # via
     #   -r requirements/test.txt
     #   pytest-cov
-cryptography==3.4.2
+cryptography==3.4.5
     # via
     #   -r requirements/test.txt
     #   django-fernet-fields
@@ -120,6 +120,7 @@ edx-lint==4.0.1
     # via -r requirements/quality.in
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #edx-toggles==1.2.2
 =======
 edx-toggles==2.0.0
@@ -127,12 +128,15 @@ edx-toggles==2.0.0
 =======
 edx-toggles==3.1.0
 >>>>>>> d9988af... Updating Python Requirements
+=======
+edx-toggles==4.0.0
+>>>>>>> 2e31ef8... Updating Python Requirements (#51)
     # via -r requirements/test.txt
 event-tracking==1.0.4
     # via -r requirements/test.txt
 factory-boy==3.2.0
     # via -r requirements/test.txt
-faker==6.0.0
+faker==6.1.1
     # via
     #   -r requirements/test.txt
     #   factory-boy
@@ -160,7 +164,7 @@ kombu==5.0.2
     # via
     #   -r requirements/test.txt
     #   celery
-lazy-object-proxy==1.4.3
+lazy-object-proxy==1.5.2
     # via astroid
 markupsafe==1.1.1
     # via
@@ -186,7 +190,7 @@ pluggy==0.13.1
     # via
     #   -r requirements/test.txt
     #   pytest
-prompt-toolkit==3.0.14
+prompt-toolkit==3.0.16
     # via
     #   -r requirements/test.txt
     #   click-repl
@@ -261,7 +265,6 @@ requests==2.25.1
 six==1.15.0
     # via
     #   -r requirements/test.txt
-    #   astroid
     #   click-repl
     #   edx-lint
     #   event-tracking
