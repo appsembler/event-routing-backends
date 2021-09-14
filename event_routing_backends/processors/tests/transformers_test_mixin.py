@@ -18,7 +18,7 @@ TEST_DIR_PATH = os.path.dirname(os.path.abspath(__file__))
 
 EVENT_FIXTURE_FILENAMES = [
     event_file_name for event_file_name in os.listdir(
-        f'{TEST_DIR_PATH}/fixtures/current/'
+        '{}/fixtures/current/'.format((TEST_DIR_PATH))
     ) if event_file_name.endswith(".json")
 ]
 
