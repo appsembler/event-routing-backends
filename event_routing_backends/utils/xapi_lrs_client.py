@@ -50,7 +50,7 @@ class LrsClient:
             str
         """
         if self.AUTH:
-            return f'{self.AUTH_SCHEME} {self.AUTH}'
+            return '{} {}'.format((self.AUTH_SCHEME), (self.AUTH))
 
         return None
 
